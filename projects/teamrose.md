@@ -62,7 +62,7 @@ Future work for the Avionics subteam includes implementing new batteries with gr
   <img width="300px" src="../img/FlipskyBMS.png" class="img-thumbnail" >
 </div>
 
-## Conslusion 
+## Conclusion 
 
 Upon reflection from results in at the 2024 URC Finals, Team RoSE has set greater expectations and goals to improve upon the failure points in last year’s design. We are on track to develop a brand new rover, exceeding the limitations found in the 2024 Team RoSE mars rover. We have nearly  finalized all the designs and beginning next semester construction of the rover will start. The team must submit a video demonstrating the rover is capable of competing by early March. 
 
