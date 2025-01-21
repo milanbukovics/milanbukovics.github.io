@@ -18,7 +18,14 @@ summary: "Team RoSE leverages robotic technologies in autonomy, mobility, manipu
 Team Robotic Space Exploration (RoSE) is a student-lead team of undergraduate STEM scientists and engineers, pursuing a common goal of developing a complex mars rover system for the University Rover Challenge (URC). In June 2024, Team RoSE qualified and competed in the URC Finals amongst the top 36 of 120 applying universities. This academic year, returning members have internalized results and observations made prior to improve upon all the critical failure points discovered. New members are also joining to get hands-on experience throughout this project.
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/Team_RoSE.png" class="img-thumbnail" >
+  <iframe 
+    src="https://www.youtube.com/embed/sR2wBOrVhRw" 
+    width="560" 
+    height="315" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
 </div>
 
 ## Project Description
