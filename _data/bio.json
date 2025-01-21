@@ -27,8 +27,8 @@
       "keywords": [ "C", "C++", "Python", "Javascript", "Typescript"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Git/GitHub"]
+      "name": "Toolsets",
+      "keywords": [ "MacOS", "Git/GitHub", "Matlab", "Soldering", "Battery assembly", "Spot welding", KiCad, 3d Printing"]
     }
   ],
   "education": [
@@ -51,10 +51,10 @@
       "endDate": "Present",
       "summary": "Performs a variety of tasks to support efficient operations, including food preparation, customer service, and maintaining cleanliness in compliance with Sodexo standards.",
       "highlights": [
-        "- Delivered high-quality service as a waiter and bartender at upscale events.",
-        "- Managed catering logistics for large corporate and private events, including tip-off events.",
-        "- Adapted to various roles, from bartending to event setup, in fast-paced environments.",
-        "- Ensured client satisfaction and maintained service excellence over four years."
+        " Delivered high-quality service as a waiter and bartender at upscale events.",
+        " Managed catering logistics for large corporate and private events, including tip-off events.",
+        " Adapted to various roles, from bartending to event setup, in fast-paced environments.",
+        " Ensured client satisfaction and maintained service excellence over four years."
       ]
     }
 
@@ -68,11 +68,11 @@
       "endDate": "Present",
       "summary": "Division I Athlete",
       "highlights": [
-       "-  Team Captain, 2024 Season – Led by example in fostering discipline, teamwork, and accountability.",
-        "- Division I Conference Champion – Competed at the highest collegiate level, achieving significant victories.",
-        "- Demonstrated leadership through effective communication and collaboration, enhancing team cohesion.",
-        "- Developed resilience, time management, and adaptability, balancing athletics with academics.",
-        "- Participated at international competitions: 2x European Junior Championships (2018-2019) and World Junior Championship (2019)."
+       "  Team Captain, 2024 Season – Led by example in fostering discipline, teamwork, and accountability.",
+        " Division I Conference Champion – Competed at the highest collegiate level, achieving significant victories.",
+        " Demonstrated leadership through effective communication and collaboration, enhancing team cohesion.",
+        " Developed resilience, time management, and adaptability, balancing athletics with academics.",
+        " Participated at international competitions: 2x European Junior Championships (2018-2019) and World Junior Championship (2019)."
       ]
     }
     
