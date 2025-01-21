@@ -28,7 +28,7 @@
     },
     {
       "name": "Toolsets",
-      "keywords": [ "MacOS", "Git/GitHub", "Matlab", "Soldering", "Battery assembly", "Spot welding", KiCad, 3d Printing"]
+      "keywords": [ "MacOS", "Git/GitHub", "Matlab", "Soldering", "Battery assembly", "Spot welding", "KiCad", "3D Printing"]
     }
   ],
   "education": [
