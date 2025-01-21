@@ -67,3 +67,9 @@ This part of the research focuses on developing and refining formation control s
 [7] Maruyama, Y., Kato, S., & Azumi, T. (2016, October). Exploring the performance of ROS2. In Proceedings of the 13th international conference on embedded software (pp. 1-10).
 
 [8] Pichierri, L., Testa, A., & Notarstefano, G. (2023). Crazychoir: Flying swarms of crazyflie quadrotors in ros 2. IEEE Robotics and Automation Letters, 8(8), 4713-4720.
+
+## Acknowledgment 
+
+- Dr Daniel Drew
+- Teal Hoffman
+- Tristan Hall
