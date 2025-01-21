@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/BorisMurmannProject.jpg
+image: img/BorisMurmannProject.png
 title: "Microelectronics Open Source Book"
 date: 2024
 published: true
