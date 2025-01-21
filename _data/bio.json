@@ -19,7 +19,7 @@
     { "name": "Robotics" },
     { "name": "PCB design" },
     { "name": "3D printing" },
-    { "name": "Professional Swimming" }
+    { "name": "Power systems" }
   ],
   "skills": [
     {
@@ -28,13 +28,13 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub"]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Electrical Engineering (expected Spring, 2018)",
+      "area": "Electrical Engineering (expected Spring, 2025)",
       "studyType": "B.S.",
       "startDate": "2021-09-23",
       "endDate": "Present",
@@ -44,74 +44,46 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Sodexo",
+      "position": "Food servant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2021-12-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Performs a variety of tasks to support efficient operations, including food preparation, customer service, and maintaining cleanliness in compliance with Sodexo standards.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "- Delivered high-quality service as a waiter and bartender at upscale events.",
+        "- Managed catering logistics for large corporate and private events, including tip-off events.",
+        "- Adapted to various roles, from bartending to event setup, in fast-paced environments.",
+        "- Ensured client satisfaction and maintained service excellence over four years."
       ]
     }
+
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "University of Hawaii Swim and Dive Team",
+      "website": "https://hawaiiathletics.com/sports/mens-swimming-and-diving/roster",
+      "position": "Team Captain",
+      "startDate": "2021-09-23",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Division I Athlete",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+       "-  Team Captain, 2024 Season – Led by example in fostering discipline, teamwork, and accountability.",
+        "- Division I Conference Champion – Competed at the highest collegiate level, achieving significant victories.",
+        "- Demonstrated leadership through effective communication and collaboration, enhancing team cohesion.",
+        "- Developed resilience, time management, and adaptability, balancing athletics with academics.",
+        "- Participated at international competitions: 2x European Junior Championships (2018-2019) and World Junior Championship (2019)."
       ]
     }
+    
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Dean's List Award",
+      "date": "2021-Present",
+      "awarder": "University of Hawai'i at Manoa ",
+      "summary": "Scholarships awarded to those students who maintain at least a 3.5 GPA in the given semester."
     },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
+    
   ]
 }
