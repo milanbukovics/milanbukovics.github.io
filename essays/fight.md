@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Fight with Typetrict"
+title: "Fight with Typestrict"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-21
 published: true
