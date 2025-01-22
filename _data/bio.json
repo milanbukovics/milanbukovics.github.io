@@ -15,11 +15,11 @@
     ]
   },
   "interests": [
-    { "name": "Electrical Engineering" },
-    { "name": "Robotics" },
-    { "name": "PCB design" },
-    { "name": "3D printing" },
-    { "name": "Power systems" }
+    { "name": "Autonomous Systems and Robotics"},
+    { "name": "Control Systems Engineering"},
+    { "name": "Artificial Intelligence in Robotics" },
+    { "name": "Power Systems for Robotics" },
+    { "name": "PCB Design for Robotic Applications" }
   ],
   "skills": [
     {
@@ -29,6 +29,10 @@
     {
       "name": "Toolsets",
       "keywords": [ "MacOS", "Git/GitHub", "Matlab", "Soldering", "Battery assembly", "Spot welding", "KiCad", "3D Printing"]
+    },
+    {
+      "name": "Spoken Languages",
+      "keywords": [ "Hungarian","English","French","German"]
     }
   ],
   "education": [
