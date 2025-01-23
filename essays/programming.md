@@ -12,9 +12,13 @@ labels:
   - Skills
 ---
 
-<img width="500px" class="float-start pe-4 img-thumbnail" src="../img/codeM.png">
+<!--<img width="500px" class="float-start pe-4 img-thumbnail" src="../img/codeM.png"> -->
 <!-- <img width="200px" class="rounded float-start pe-4" src="../img/.png"> -->
 
+<div class="text-center p-4">
+  <img width="500px" src="../img/codeA.png" class="img-thumbnail" >
+  
+</div>
 
 
 ## Why learn and understand coding as an engineer
