@@ -46,7 +46,7 @@ Team Robotic Space Exploration (RoSE) is a student-lead team of undergraduate ST
 
 ## Marterials and methods
 
-The Avionics subteam enhanced the onboard electrical system to increase safety and reliability. A custom 8S-4P Li-ion 21700 battery was designed to handle extreme missions, powering the rover for over 4 hours with a capacity of 18Ah, a maximum output of 30V, and approximately 530Wh of energy. A PDB500 power distribution board ensures convenience and safety with several regulated 12V and 5V outputs and the ability to handle 500A continuous current, with a fuse box limiting current to 15A in case of stalls. Modularization across the rover facilitates quick and safe disassembly during competitions. Additionally, a new buck converter was implemented to address voltage dips that reset the Jetson AGX Xavier, providing a stable 15V nominal output.
+The Avionics subteam enhanced the onboard electrical system to increase safety and reliability. I am one of the two leads of Avionics, so I helped to design a custom 8S-4P Li-ion 21700 battery to handle extreme missions, powering the rover for over 4 hours with a capacity of 18Ah, a maximum output of 30V, and approximately 530Wh of energy. A PDB500 power distribution board ensures convenience and safety with several regulated 12V and 5V outputs and the ability to handle 500A continuous current, with a fuse box limiting current to 15A in case of stalls. Modularization across the rover facilitates quick and safe disassembly during competitions. Additionally, a new buck converter was implemented to address voltage dips that reset the Jetson AGX Xavier, providing a stable 15V nominal output.
 
 <div class="text-center p-4">
   <img width="300px" src="../img/PDB500.png" class="img-thumbnail" >
