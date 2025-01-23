@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/CrazyFlie.png
 title: "Design and Control of Heterogeneous Swarms of Resource-Constrained Robots"
-date: 2024
+date: 2024 - Current
 published: true
 labels:
   - Crazy Flie
