@@ -4,7 +4,7 @@ type: essay
 title: "What to do with these weird random characters followig each other, AKA program code"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-22
-published: false
+published: true
 labels:
   - Engineering
   - Javascript
@@ -12,7 +12,7 @@ labels:
   - Skills
 ---
 
-<img width="200px" class="rounded" src="../img/codeM.png">
+<img width="500px" class="float-start pe-4 img-thumbnail" src="../img/codeM.png">
 <!-- <img width="200px" class="rounded float-start pe-4" src="../img/.png"> -->
 
 
@@ -36,4 +36,9 @@ My personal goal with JavaScript and TypeScript is to build a web app that redef
 <img width="200px" class="rounded" src="../img/codeA.png">
 
 It is a long journey to get there, but I am excited to learn more about the field of software engineering.
+
+References : 
+- [Picture1](https://www.mtu.edu/cs/undergraduate/software/what/)
+
+- [Picture2](https://www.addevice.io/blog/mobile-app-development)
 
