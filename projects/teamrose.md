@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/Team_RoSE.png
 title: "Team RoSE"
-date: 2022
+date: 2022 - Current
 published: true
 labels:
   - Robotics
