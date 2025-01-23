@@ -47,7 +47,7 @@ The development of custom firmware will be required that facilitates precise and
 
 #### Heterogeneous Swarm Deployment 
 
-This part of the research focuses on developing and refining formation control strategies for a heterogeneous fleet of robots, integrating both stock-flying Crazyflies and a custom-designed wheeled platform. Utilizing the Lighthouse positioning system [6] for accurate real-time position feedback, the project aims to achieve precise coordination between aerial and ground robots. A centralized control architecture will be implemented through ROS2 [7], enabling efficient communication and decision-making. The CrazyChoir [8] software framework will be adapted to manage multi-robot dynamics, ensuring seamless formation control and collaboration across the heterogeneous group.
+This part of the research focuses on developing and refining formation control strategies for a heterogeneous fleet of robots, integrating both stock-flying Crazyflies and a custom-designed wheeled platform. Utilizing the Lighthouse positioning system [6] for accurate real-time position feedback, the project aims to achieve precise coordination between aerial and ground robots. A centralized control architecture will be implemented through ROS2 [7], enabling efficient communication and decision-making. The CrazyChoir [8] software framework will be adapted to manage multi-robot dynamics, ensuring seamless formation control and collaboration across the heterogeneous group. I have been working on all the part since August  2024.
 
 
 ## References
