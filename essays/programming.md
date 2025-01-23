@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "What to do with these weird random characters followig each other, AKA program code"
+title: "How to make sense of these random characters and parentheses—AKA program code"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-22
 published: true
@@ -37,11 +37,12 @@ I want to improve my technical skills. I have already been exposed to Python, C,
 
 My personal goal with JavaScript and TypeScript is to build a web app that redefines how swim practices are created. Since I am part of the UH Swim and Dive team, I already have the knowledge of *what* to put on the website, and learning JavaScript and TypeScript will help me understand *how* to put the web app together. This project is a great opportunity to learn more about data science, machine learning, and mobile app development. On the human side, communication, team collaboration, and networking will be needed to create at least a minimum viable product.
 
-<img width="200px" class="rounded" src="../img/codeA.png">
+<img width="300px" class="rounded" src="../img/codeA.png">
 
 It is a long journey to get there, but I am excited to learn more about the field of software engineering.
 
-References : 
+## References : 
+
 - [Picture1](https://www.mtu.edu/cs/undergraduate/software/what/)
 
 - [Picture2](https://www.addevice.io/blog/mobile-app-development)
