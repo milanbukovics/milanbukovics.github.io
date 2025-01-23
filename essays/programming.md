@@ -16,7 +16,7 @@ labels:
 <!-- <img width="200px" class="rounded float-start pe-4" src="../img/.png"> -->
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/codeA.png" class="img-thumbnail" >
+  <img width="500px" src="../img/codeM.png" class="img-thumbnail" >
   
 </div>
 
