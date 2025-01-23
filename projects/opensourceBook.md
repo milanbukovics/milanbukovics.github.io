@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/BorisMurmannProject.png
 title: "Microelectronics Open Source Book"
-date: 2024
+date: 2024 - Current
 published: true
 labels:
   - Circuits
