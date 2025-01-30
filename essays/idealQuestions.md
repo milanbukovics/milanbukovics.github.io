@@ -12,6 +12,12 @@ labels:
   - Experience
 ---
 
+<div class="text-center p-4">
+  <img width="500px" src="../img/smartVSstupidQuestion.png" class="img-thumbnail" >
+  
+</div>
+
+
 ## The importance of asking questions in the right way
 
 Asking a good question is important in the everyday life. There are many pronlems that has to be solved, some of them are easier, some of them 
@@ -88,6 +94,12 @@ There are multiple reason this question is a "Stupid question", as [Raymond](htt
 wasn't deep enough to solve this question. The archives of the forum or mailing list the person posted clearly wasn't read, nor researched, the experimentation of getting to the solution is not sufficient. Furthermore, there is a whole manual dedicated to use the command line, bash. It includes the basic text editors, such as *VIM* or *NANO*. 
 
 Surprisingly, the answer turned out to be surprisingly informative, even though "stupid questions" tend to be disregarded or answered in a really short sentence. The answer wasn't as long as it was at the previous question, as expected, but it is still informative. 
+
+<div >
+  <img width="200px" src="../img/sillyQuestion.png" class="img-thumbnail" >
+  
+</div>
+
 
 ## Conclusion
 
