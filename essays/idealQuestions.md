@@ -23,7 +23,10 @@ Asking the right questions applies even more for software engineers. [Stackoverf
 
 ## How to get help from Stackoverflow in case we are stuck with a problem
 
-Understanding what is not working, exploiting majority of the options to find the answer, do some digging to get to the solution is crucial to state the right question, and to get the attention of those who are willing to asnwer. These people who answer questions on Stackoverflow can easily see how much effort, time, and researh one invested into solving the given problem. 
+Understanding what is not working, exploiting majority of the options to find the answer, do some digging to get to the solution is crucial to state the right question, and to get the attention of those who are willing to answer. These people who answer questions on Stackoverflow can easily see how much effort, time, and researh one invested into solving the given problem. The following question shows understanding in connection with coding, 
+
+
+https://stackoverflow.com/questions/11828270/how-do-i-exit-vim/11828573#11828573 
 
 
 
