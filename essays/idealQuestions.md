@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The importance of asking questions in the right way" 
+title: "The Importance of Asking Questions in the Right Way" 
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-30
 published: true
