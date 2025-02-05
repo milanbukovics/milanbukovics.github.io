@@ -23,7 +23,7 @@ labels:
 
 ## Why learn and understand coding as an engineer?
 
-Software engineering is part of our lives; we use websites, chips, applications, and machines on an everyday basis. We might not notice it, but a major part of engineering would struggle if software engineering didn’t exist. Since I am new to this programming world, I am eager to learn more about it. As I mentioned in my other essay, coding is not necessarily about knowing the syntax of every programming language, but about understanding the problem and having the logic to solve it.
+Software engineering is part of our lives; we use websites, chips, applications, and machines on an everyday basis. We might not notice it, but a major part of engineering would struggle if software engineering didn’t exist. Since I am new to this programming world, I am eager to learn more about it. As I mentioned in my other essay, coding is not necessarily about knowing the syntax of every programming language, but about understanding the problem and having the logic to solve it. 
 
 ## What do I enjoy about the random characters following each other?
 
