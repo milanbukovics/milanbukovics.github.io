@@ -1,4 +1,4 @@
---
+---
 layout: essay
 type: essay
 title: "From Chaos to Code: How ESLint and Good Practices Turned My Scripts Into Stories"
