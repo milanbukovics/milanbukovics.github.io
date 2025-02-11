@@ -12,7 +12,13 @@ labels:
   - Coding Standards
 ---
 
-As much as coding is free and largely based on creativity and skill, developers must follow guidelines to produce high-quality, production-ready code.
+#### As much as coding is free and largely based on creativity and skill, developers must follow guidelines to produce high-quality, production-ready code.
+
+
+<div class="text-center p-4">
+  <img width="300px" src="../img/eslintJoke.png" class="img-thumbnail" >
+  
+</div>
 
 After my first week of using ESLint with VSCode, I was amazed by how much easier and more efficient coding became. ESLint fixes logical and indentation errors with ease. It's not an AI program, but that's what makes it so impressive—its ability to streamline the coding process.
 Sometimes, correcting all the linting errors can feel like a pain. However, once all the errors are fixed, the result is production-quality code. In this context, the functionality of the code becomes secondary to its quality.
@@ -60,4 +66,9 @@ While these practices are helpful, they aren't necessarily part of formal coding
 
 
  
+<div class="text-center p-4">
+  <img width="300px" src="../img/toolsJoke.png" class="img-thumbnail" >
+  
+</div>
+
 
