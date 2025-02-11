@@ -37,7 +37,7 @@ There are multiple platforms and coding environments where tools like ESLint, Va
 
 ## A Bunch of Random Characters or a Story?
 
-One thing I learned from Mark Nelson, my C/C++ Professor at UH Manoa, is that good code tells a story. Meaningful variable names, such as $oddNumArray$, instead of generic names like $x$ or $y$, help make code self-explanatory.
+One thing I learned from Mark Nelson, my C/C++ Professor at UH Manoa, is that good code tells a story. Meaningful variable names, such as *oddNumArray*, instead of generic names like *x* or *y*, help make code self-explanatory.
 Since high-level coding is often done in teams, the readability of your code is even more critical. Overly complex code slows down progress because the next developer must spend time figuring out what’s going on. For example, the following code is overly complex:
 ```
 const result = data.filter((item) => item.active && item.value > 10).map((item) => ({ ...item, adjustedValue: item.value * 2 })).reduce((acc, curr) => acc + (curr.adjustedValue ?? 0), 0);
