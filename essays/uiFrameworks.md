@@ -41,7 +41,7 @@ The fact that there are so many options can be overwhelming. However, these prop
 
 UI frameworks provide multiple advantages in software engineering, including accelerated development, uniform design across applications, and responsive components. They ensure cross-browser compatibility, minimize code redundancy, and enhance maintainability.Other benefits are shown on the picture below.
 
-<div class="text-center p-4 margin-bottom= 30px">
+<div class="text-center p-4 margin-bottom:30px">
   <img width="500px" src="../img/uiFrameworks.png" class="img-thumbnail" alt="uiFrameworks img">
   
 </div>
