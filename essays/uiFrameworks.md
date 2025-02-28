@@ -39,7 +39,11 @@ The fact that there are so many options can be overwhelming. However, these prop
 
 ## Benefits of UI frameworks 
 
-UI frameworks provide multiple advantages in software engineering, including accelerated development, uniform design across applications, and responsive components. They ensure cross-browser compatibility, minimize code redundancy, and enhance maintainability.Other benefits are shown on the picture below.
+UI frameworks provide multiple advantages in software engineering, including accelerated development, uniform design across applications, and responsive components. They ensure cross-browser compatibility, minimize code redundancy, and enhance maintainability.Other benefits are shown on the picture below. 
+
+
+
+As a conclusion, building websites is fun as long as you have the right tools to do that. Bootstrap 5 is a perfect and easy tool to use. Remember, practice makes perfect, and don't pull your hair too hard if you cannot get it right for the first time:)
 
 <div class="text-center p-4 margin-bottom:30px">
   <img width="500px" src="../img/uiFrameworks.png" class="img-thumbnail" alt="uiFrameworks img">
