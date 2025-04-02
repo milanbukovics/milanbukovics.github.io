@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "The Pain and Beauty of Building User Inrterfaces" 
 # All dates must be YYYY-MM-DD format!
-date: 2025-02-26
+date: 2025-03-01
 published: true
 labels:
   - User Interface
