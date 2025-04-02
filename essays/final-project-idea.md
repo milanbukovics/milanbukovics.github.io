@@ -115,6 +115,11 @@ Students can discuss notes, ask questions, and provide additional explanations. 
 - This incentivizes students to contribute **high-quality, readable, and accurate notes.**  
 - Students who don't contribute notes will have fewer points to access high-rated notes.  
 
+
+There are a couple special features of the page. First, there is going to be a comment section implemented, where the owner and the user will be able to leave comments about the given note. The second extra feature will be a required component, where users, who are looking for the notes will have to rate the person’s notes that were opened. The scoring range will have a 1-5 star scoring system: one star means that the note is not useful, 5 star rating means the opposite. Average rating will be shown on the viewing page. Last but not least, based on star ratings one receives on your notes, will result in a certain amount of points: the better the rating, the more points the given person gets. These points can be used to unlock other people’s notes. The higher rated the given note, the more points it will cost to unlock it. This should motivate people to take good, readable, and correct notes. On the other hand, if people don’t post notes, they will not have points to unlock other people’s notes. 
+As a concussion, the more and correct notes someone takes, the more options he/she has to unlock other notes.
+
+
 ### **Final Thought**  
 The **more and better** notes a student takes, the **more access** they get to others' high-quality notes. This fosters a collaborative and enriching learning environment at UH Mānoa.  
 
