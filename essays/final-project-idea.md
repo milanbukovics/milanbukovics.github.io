@@ -55,7 +55,7 @@ This ensures that students get the most relevant and high-quality notes tailored
 
 ## **Use Case Scenarios**  
 
-### **1️⃣ Students Uploading Notes**  
+### **1️ Students Uploading Notes**  
 1. Student visits the landing page.  
 2. Student logs in or creates an account.  
 3. Student clicks "Upload Notes" on the navigation bar.  
@@ -69,7 +69,7 @@ This ensures that students get the most relevant and high-quality notes tailored
    - **Homework/Class Notes (e.g., Google Drive link, GitHub link)**  
 5. Student uploads the information, and the notes appear on the "View Notes" page.  
 
-### **2️⃣ Students Editing Their Notes**  
+### **2️ Students Editing Their Notes**  
 1. Student logs in.  
 2. If they have uploaded notes, the "Edit Notes" tab becomes visible.  
 3. Student clicks "Edit Notes" in the navigation bar.  
@@ -84,7 +84,7 @@ This ensures that students get the most relevant and high-quality notes tailored
    - **Homework/Class Notes (e.g., Google Drive link, GitHub link)**  
 6. Updated notes are saved and reflected on the "View Notes" page.  
 
-### **3️⃣ Students Searching for Class Notes**  
+### **3️ Students Searching for Class Notes**  
 1. Student visits the landing page.  
 2. Student logs in or creates an account.  
 3. Student clicks "View Notes" on the navigation bar.  
@@ -101,15 +101,15 @@ This ensures that students get the most relevant and high-quality notes tailored
 
 ## **Beyond the Basics**  
 
-### **💬 Comment Section**  
+### ** Comment Section**  
 Students can discuss notes, ask questions, and provide additional explanations. The original uploader can also clarify any doubts.  
 
-### **⭐ Star Rating System**  
+### ** Star Rating System**  
 - Students must **rate notes** after accessing them.  
 - **Rating Scale:** 1-5 stars (1 = Not Useful, 5 = Very Useful).  
 - Average ratings are displayed on the viewing page.  
 
-### **🎯 Points-Based System**  
+### ** Points-Based System**  
 - Users earn **points** based on the star ratings received on their uploaded notes.  
 - **Unlocking notes requires points:** The higher the rating of a note, the more points it costs to unlock.  
 - This incentivizes students to contribute **high-quality, readable, and accurate notes.**  
