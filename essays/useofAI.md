@@ -23,7 +23,7 @@ Artificial Intelligence (AI) has become a major part of education, especially in
 
 ## II. Personal Experience with AI
 
-### 1. Experience WODs (e.g. E18)
+### 1. Experience WODs 
 
 I didn’t use AI during Experience WODs since they were timed and individual. I felt that using ChatGPT would defeat the purpose of being prepared. That said, I used ChatGPT *before* the WOD to practice. For example, for the typescri[t WOD], I asked, “what is the syntax for a for loop?” It helped clarify the `for loop` and `while loop`, boosting my confidence.
 
