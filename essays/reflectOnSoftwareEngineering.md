@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflecion on Software Wngineering"
+title: "Reflecion on Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-08
 published: true
