@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/Hive.png
+image: img/hive11.png
 title: "Hive-1 & Hive-2 – Autonomous Swarm Robots"
-date: 2024 January – Present
+date: 2024-01 – Present
 published: true
 labels:
   - Swarm Robotics
@@ -22,7 +22,7 @@ Hive-1 and Hive-2 are custom-designed **autonomous swarm robots** built around a
 Both platforms were engineered for synchronized multi-robot experiments, distributed control, and indoor localization.
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/hive1.png" class="img-thumbnail">
+  <img width="400px" src="../img/hive11.png" class="img-thumbnail">
 </div>
 
 ---
@@ -41,7 +41,7 @@ Both platforms were engineered for synchronized multi-robot experiments, distrib
 * Developed firmware for synchronized behaviors, wireless communication, and sensor calibration
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/hive2.png" class="img-thumbnail">
+  <img width="400px" src="../img/hive22.png" class="img-thumbnail">
 </div>
 
 ---

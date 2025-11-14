@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/CrazyFlie.png
 title: "Autonomous Control System for Heterogeneous Crazyflie–TurtleBot3 Swarms"
-date: 2024 – Present
+date: 2024-08 – Present
 published: true
 labels:
   - Crazyflie
@@ -24,26 +24,22 @@ summary: "A unified ROS 2–based control, simulation, and autonomy framework en
 
 #  **Autonomous Robotics Control System – Heterogeneous Crazyflie + TurtleBot3 Swarm**
 
-**ROS 2 • Python/C++ • Gazebo • PyTorch Reinforcement Learning**
-**Aug 2024 – Present**
 
----
 
 ## **Project Overview**
 
-This project develops a unified control, simulation, and autonomy framework enabling **heterogeneous swarm coordination** between **Crazyflie nano-UAVs** and **TurtleBot3 ground robots**. The system integrates **ROS 2**, **Gazebo**, **sensor fusion**, and **reinforcement-learning-based controllers**, creating a scalable testbed for swarm robotics research.
+This project develops a unified control, simulation, and autonomy framework enabling **heterogeneous swarm coordination** between **Crazyflie UAVs** and **TurtleBot3 ground robots**. The system integrates **ROS 2**, **Gazebo**, **sensor fusion**, and **reinforcement-learning-based controllers**, creating a scalable testbed for swarm robotics research.
 
----
 
 ## **Engineering Goals**
 
-* Build a **ROS 2 native control stack** for multi-robot coordination.
-* Integrate **Crazyflie UAVs and TurtleBot3 platforms** into shared formation control behaviors.
-* Develop **Python/C++ firmware extensions** for real-time telemetry, sensing, and distributed control.
-* Prototype a **PyTorch reinforcement-learning controller** to replace classical PID loops.
-* Establish a **simulation-first workflow** in Gazebo to validate multi-agent algorithms before deployment.
+* Build a ROS 2 native control stack for multi-robot coordination.
+* Integrate Crazyflie UAVs and TurtleBot3 platforms into shared formation control behaviors.
+* Develop Python/C++ firmware extensions for real-time telemetry, sensing, and distributed control.
+* Prototype a PyTorch reinforcement-learning controller to replace classical PID loops.
+* Establish a simulation-first workflow in Gazebo to validate multi-agent algorithms before deployment.
 
----
+
 
 ## **System Architecture**
 
@@ -80,7 +76,7 @@ This project develops a unified control, simulation, and autonomy framework enab
   * RL controller evaluation
   * Parameter optimization
 
----
+
 
 ## **Machine Learning Integration**
 
@@ -91,7 +87,6 @@ This project develops a unified control, simulation, and autonomy framework enab
 * Trained using simulated disturbances and noise to improve robustness.
 * Tested in Gazebo before deployment to physical Crazyflie hardware.
 
----
 
 ## **Heterogeneous Swarm Coordination**
 
@@ -112,17 +107,16 @@ This project develops a unified control, simulation, and autonomy framework enab
   * Gazebo simulation
   * Hybrid (HIL) setups
 
----
 
 ## **Engineering Contributions**
 
-* Designed end-to-end **ROS 2 swarm coordination pipeline** (sim → firmware → hardware).
-* Developed **real-time swarm communication** using LiDAR/IMU fusion.
-* Implemented **distributed control** for mixed UAV–ground robot teams.
-* Built **ML-in-the-loop controllers** improving stability over classical PID.
+* Designed ROS 2 swarm coordination pipeline.
+* Developed real-time swarm communication using LiDAR/IMU fusion.
+* Implemented distributed control for mixed UAV–ground robot teams.
+* Built ML-in-the-loop controllers improving stability over classical PID.
 * Created a reproducible, scalable research platform for future autonomous swarm studies.
 
----
+
 
 ## **Key Technologies**
 
@@ -130,7 +124,6 @@ This project develops a unified control, simulation, and autonomy framework enab
 **Crazyflie Firmware**, **PyTorch**, **LiDAR/IMU Sensor Fusion**,
 **Reinforcement Learning**, **Distributed Systems**, **Autonomous Navigation**
 
----
 
 ## **Results**
 
@@ -143,11 +136,10 @@ This project develops a unified control, simulation, and autonomy framework enab
   * Swarm autonomy education
   * ML testing in robotics
 
----
 
 ## **Future Work**
 
 * Deploy RL controller on physical Crazyflie hardware for full closed-loop evaluation.
 * Add localization sources (AprilTags, UWB).
 * Extend swarm to >4 robots with hierarchical control layers.
-* Publish the platform as an **open-source heterogeneous swarm framework**.
+* Publish the platform as an open-source heterogeneous swarm framework.

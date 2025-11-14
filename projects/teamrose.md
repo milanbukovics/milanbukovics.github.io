@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/Team_RoSE.png
+image: img/urc2025.png
 title: "Team RoSE – Mars Rover Avionics & Power Systems"
-date: 2022 – Present
+date: 2022-01 – Present
 published: true
 labels:
   - Robotics
