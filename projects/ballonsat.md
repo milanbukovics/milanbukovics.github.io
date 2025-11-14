@@ -21,7 +21,7 @@ This Balloon Satellite project involves designing the power system, sensing plat
 
 * **Near-space conditions** (to 100,000 ft / –70°F)
 * **Extended mission durations**
-* **Possible ocean splashdowns** (UHABS-style recovery)
+* **Payload recovery** (UHABS-style recovery)
 
 The platform is built for robust, long-duration atmospheric data collection in extreme environments.
 
@@ -58,14 +58,13 @@ Designed the power subsystem, sensor suite, and environmental protections, empha
 ## **3. Environmental Telemetry System**
 
 * Multi-sensor array collecting: temperature, pressure, humidity, altitude, light
-* I²C/SPI sensor integration with calibrated readings
+* I²C sensor integration with calibrated readings
 * Real-time logging and telemetry pipeline for atmospheric data
 
 
 # **Communication Link**
 
-* Designed telemetry interfaces compatible with cellular or LoRa-WAN
-* Built data-handling logic for ascent, peak altitude, descent, and landing
+* Raspberry Pi 5 for data handling and comms
 
 
 # **Testing & Validation**
@@ -113,6 +112,3 @@ Designed the power subsystem, sensor suite, and environmental protections, empha
 * UHABS Program
 * Hawai‘i Space Flight Laboratory
 * UH College of Engineering
-* ME 482 Senior Design Resources
-
-

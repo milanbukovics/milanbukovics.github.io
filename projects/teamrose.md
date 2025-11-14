@@ -59,9 +59,9 @@ As **Avionics Lead**, I am responsible for the rover’s electrical and embedded
 
 A new unified avionics motherboard integrating:
 
-* Dual **Arduino Nano ESP32** microcontrollers
-* Dual **RoboClaw motor controllers**
-* Redundant **9-axis IMUs**
+* Dual Arduino Nano ESP32 microcontrollers
+* Dual RoboClaw motor controllers
+* 9-axis IMU
 * Regulated power stages & communication buses
 * Thermal and high-current routing optimization
 
@@ -71,8 +71,8 @@ A new unified avionics motherboard integrating:
 
 ## **2. High-Current Power System**
 
-* Designed the **DC power stage** for four regulated **12 V / 7 A** rails
-* Integrated **IC-based battery-level and voltage monitoring**
+* Designed the DC power stage for four regulated 12 V / 7 A rails
+* Integrated IC-based battery-level and voltage monitoring
 * Implemented overcurrent protection with fused outputs
 * Engineered modular harnesses for rapid field servicing
 
@@ -82,9 +82,9 @@ A new unified avionics motherboard integrating:
 
 ## **3. 8S–4P Li-ion Battery Pack (530 Wh)**
 
-* Custom-designed **8S–4P 21700 Li-ion pack**
-* Integrated **Battery Management System (BMS)** for protection & balancing
-* Provides **29.6 V nominal**, **530 Wh**, and **3+ hours** of runtime
+* Custom-designed 8S–4P 21700 Li-ion pack
+* Integrated Battery Management System (BMS) for protection & balancing
+* Provides ~30V nominal, 530 Wh, and 3+ hours of runtime
 * Tested under URC-level current spikes and environmental stress
 
 <div class="text-center p-4">
@@ -96,8 +96,8 @@ A new unified avionics motherboard integrating:
 ## **4. Sensor Fusion & ROS 2 Navigation Integration**
 
 * Integrated IMU and vision modules for improved localization
-* Built ROS 2 pipelines for sensor streaming & waypoint navigation
-* Enabled autonomy required for the **Autonomous Navigation Mission**
+* Contributed to integrate ROS 2 pipelines for navigation
+* Enabled autonomy required for the Autonomous Navigation Mission
 
 **Result:** Robust localization in rough outdoor terrain.
 
@@ -110,7 +110,7 @@ A new unified avionics motherboard integrating:
 * Custom PCBs for battery protection, distribution, and regulation
 * High-current wiring, fusing, and connectorization
 * Jetson Xavier compute integration
-* EMI-aware layout design
+* Modular harnesses for rapid assembly and field repairs
 
 <div class="text-center p-4">
   <img width="300px" src="../img/PDB500.png" class="img-thumbnail">
@@ -120,8 +120,8 @@ A new unified avionics motherboard integrating:
 
 # Results
 
-* Rover achieved **3+ hour runtimes** during field missions
-* Eliminated Jetson power brownouts using redesigned power regulation
+* Rover achieved 3+ hour runtimes during field missions
+* Successfully completed URC 2024 missions, ranking in the top 36 globally
 * Improved wiring reliability through modular connectors & shortened harness paths
 * Achieved consistent performance during URC practice missions
 
@@ -132,7 +132,6 @@ A new unified avionics motherboard integrating:
 * Next-generation high-discharge battery pack
 * Integration of **Flipsky BMS**
 * Breakout PCBs for arm & payload subsystems
-* Expanded ROS 2 autonomy stack (vision fusion, UWB localization)
 * Full avionics integration for URC 2025 competition rover
 
 <div class="text-center p-4">

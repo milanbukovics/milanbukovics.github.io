@@ -1,3 +1,4 @@
+
 {
   "basics": {
     "name": "Milan Bukovics",
@@ -15,21 +16,9 @@
       "region": "Hawaii"
     },
     "profiles": [
-      {
-        "network": "github",
-        "username": "milanbukovics",
-        "url": "https://github.com/milanbukovics"
-      },
-      {
-        "network": "linkedin",
-        "username": "milan-bukovics",
-        "url": "https://linkedin.com/in/milan-bukovics"
-      },
-      {
-        "network": "instagram",
-        "username": "bukovicsm",
-        "url": "https://instagram.com/bukovicsm"
-      }
+      { "network": "github", "username": "milanbukovics", "url": "https://github.com/milanbukovics" },
+      { "network": "linkedin", "username": "milan-bukovics", "url": "https://linkedin.com/in/milan-bukovics" },
+      { "network": "instagram", "username": "bukovicsm", "url": "https://instagram.com/bukovicsm" }
     ]
   },
 
@@ -39,57 +28,6 @@
     { "name": "Control Systems & Sensor Fusion" },
     { "name": "Machine Learning / Reinforcement Learning" },
     { "name": "Power Electronics & Battery Systems" }
-  ],
-
-  "skills": [
-  {
-    "name": "Programming Languages",
-    "keywords": [
-      "Python",
-      "C",
-      "C++",
-      "Verilog",
-      "Dart",
-      "JavaScript",
-      "HTML/CSS",
-      "MATLAB"
-    ]
-  },
-  {
-    "name": "Toolsets",
-    "keywords": [
-      "ROS2",
-      "Git",
-      "KiCad",
-      "LTspice",
-      "Fusion 360",
-      "Onshape",
-      "Vivado",
-      "NumPy",
-      "Pandas",
-      "PCB Assembly",
-      "Soldering",
-      "Circuit Debugging",
-      "Oscilloscopes",
-      "3D Printing",
-      "Laser Cutting",
-      "Battery Design",
-      "Spot Welding"
-    ]
-  },
-  {
-    "name": "Spoken Languages",
-    "keywords": [
-      "Hungarian",
-      "English",
-      "French",
-      "German"
-    ]
-  },
-    {
-      "name": "Spoken Languages",
-      "keywords": ["English", "Hungarian", "French", "German"]
-    }
   ],
 
   "education": [
@@ -104,6 +42,23 @@
     }
   ],
 
+  "volunteer": [
+    {
+      "organization": "University of Hawai‘i Swim & Dive Team",
+      "website": "https://hawaiiathletics.com/sports/mens-swimming-and-diving/roster",
+      "position": "Division I Student-Athlete & Team Captain",
+      "startDate": "2021-09-01",
+      "endDate": "2025-05-01",
+      "summary": "Division I athlete competing in collegiate and international swimming.",
+      "highlights": [
+        "Led a 50-member Division I swim team across two seasons, fostering discipline, teamwork, and accountability.",
+        "Division I Conference Champion; 2× European Junior and 2019 World Junior Championships for Hungary.",
+        "Balanced elite athletics with full engineering course load, demonstrating resilience and time management.",
+        "Awards: Academic All-American, Big West Commissioner’s Honor Roll-Highest Honors, 2× Athlete of the Week."
+      ]
+    }
+  ],
+
   "work": [
     {
       "company": "SwimX",
@@ -111,7 +66,7 @@
       "website": "https://swimx.io",
       "startDate": "2024-06-01",
       "endDate": "Present",
-      "summary": "Developing an AI-powered swim-training platform integrating workout generation, data analytics, and athlete readiness report.",
+      "summary": "Developing an AI-powered swim-training platform integrating workout generation, data analytics, and athlete readiness reports.",
       "highlights": [
         "Built cross-platform application in Flutter/Dart with Firebase backend.",
         "Implemented OpenAI-powered personalized workout engine and analytics pipeline.",
@@ -159,29 +114,54 @@
     }
   ],
 
-  "volunteer": [
-    {
-      "organization": "University of Hawai‘i Swim & Dive Team",
-      "website": "https://hawaiiathletics.com/sports/mens-swimming-and-diving/roster",
-      "position": "Division I Student-Athlete & Team Captain",
-      "startDate": "2021-09-01",
-      "endDate": "2025-05-01",
-      "summary": "Division I athlete competing in collegiate and international swimming.",
-      "highlights": [
-        "Led a 50-member Division I swim team across two seasons, fostering discipline, teamwork, and accountability.",
-        "Division I Conference Champion; 2× European Junior and 2019 World Junior Championships for Hungary.",
-        "Balanced elite athletics with full engineering course load, demonstrating resilience and time management.",
-        "Awards: Academic All-American, Big West Commissioner’s Honor Roll-Highest Honors, 2X Athlete of the Week."
-      ]
-    }
-  ],
-
   "awards": [
     {
       "title": "Dean’s List",
       "date": "2021–Present",
       "awarder": "College of Engineering, University of Hawai‘i at Mānoa",
       "summary": "Recognized for maintaining a GPA of 3.5+ across multiple semesters."
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "C",
+        "C++",
+        "Verilog",
+        "Dart",
+        "JavaScript",
+        "HTML/CSS",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Toolsets",
+      "keywords": [
+        "ROS2",
+        "Git",
+        "KiCad",
+        "LTspice",
+        "Fusion 360",
+        "Onshape",
+        "Vivado",
+        "NumPy",
+        "Pandas",
+        "PCB Assembly",
+        "Soldering",
+        "Circuit Debugging",
+        "Oscilloscopes",
+        "3D Printing",
+        "Laser Cutting",
+        "Battery Design",
+        "Spot Welding"
+      ]
+    },
+    {
+      "name": "Spoken Languages",
+      "keywords": ["English", "Hungarian", "French", "German"]
     }
   ]
 }

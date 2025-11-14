@@ -31,14 +31,15 @@ Both platforms were engineered for synchronized multi-robot experiments, distrib
 
 **Key Features**
 
-* Designed **three custom PCBs** integrating:
+* Contributed to the design of three custom PCBs integrating:
 
   * Arduino Nano ESP32
-  * **LiDAR**
-  * **SLAM module**
-  * **9-axis IMU**
+  * LiDAR
+  * SLAM module
+  * 9-axis IMU
 * Implemented AprilTag + wheel-odometry localization for coordinated swarm motion
 * Developed firmware for synchronized behaviors, wireless communication, and sensor calibration
+* Designed the charging dock and power management system
 
 <div class="text-center p-4">
   <img width="400px" src="../img/hive22.png" class="img-thumbnail">
@@ -48,12 +49,12 @@ Both platforms were engineered for synchronized multi-robot experiments, distrib
 
 # **Hive-2: Lightweight Micro-Swarm Variant**
 
-Hive-2 retained the same motion and communication system as Hive-1 but removed the LiDAR + SLAM modules to create a **lighter, lower-cost platform** for large-scale swarm deployments.
+Hive-2 retained the same motion and communication system as Hive-1 but removed the LiDAR + SLAM modules to create a lighter, lower-cost platform for large-scale swarm deployments.
 
 **Key Differences**
 
 * Same ESP32-based PCB, IMU, and omniwheel system
-* **No LiDAR / SLAM** → reduced power draw & simplified sensing
+* No LiDAR / SLAM → reduced power draw & simplified sensing
 * Designed for larger swarms and rapid manufacturing
 * Firmware reuse for formation control and coordinated multi-robot behaviors
 
@@ -74,4 +75,3 @@ Hive-2 retained the same motion and communication system as Hive-1 but removed t
 * Shared map construction across the swarm
 * Improved inter-robot communication layers
 * Publish PCB + firmware open source
-
