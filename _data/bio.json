@@ -15,11 +15,11 @@
     ]
   },
   "interests": [
-    { "name": "Autonomous Systems and Robotics"},
+    { "name": "Embedded Systems and Robotics"},
     { "name": "Control Systems Engineering"},
-    { "name": "Artificial Intelligence in Robotics" },
-    { "name": "Power Systems for Robotics" },
-    { "name": "PCB Design for Robotic Applications" }
+    { "name": "ML/ RL in Robotics" },
+    { "name": "Power Systems" },
+    { "name": "PCB Design" }
   ],
   "skills": [
     {

@@ -4,7 +4,7 @@ type: essay
 title: "How to make sense of these random characters and parentheses—AKA program code"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-22
-published: true
+published: false
 labels:
   - Engineering
   - Javascript

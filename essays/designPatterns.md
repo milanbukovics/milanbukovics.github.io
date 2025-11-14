@@ -4,7 +4,7 @@ type: essay
 title: "Design Patterns in NoteHub-Mānoa: The Architecture of a Digital Library"
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-10
-published: true
+published: false
 labels:
   - Software Engineering
   - NoteHub-Mānoa

@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: img/CrazyFlie.png
-title: "Autonomous Control System for Heterogeneous Crazyflie–TurtleBot3 Swarms"
-date: 2024-08 – Present
+title: "Robotics Control Systems"
+date: 2024 – Present
 published: true
 labels:
   - Crazyflie
@@ -21,10 +21,7 @@ summary: "A unified ROS 2–based control, simulation, and autonomy framework en
 <img width="600px" class="img-fluid" src="../img/flyingswarm.png">
 
 
-
-#  **Autonomous Robotics Control System – Heterogeneous Crazyflie + TurtleBot3 Swarm**
-
-
+#  **Heterogeneous Crazyflie + TurtleBot3 Swarm Control System**
 
 ## **Project Overview**
 

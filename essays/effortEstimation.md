@@ -4,7 +4,7 @@ type: essay
 title: "Effort Estimation Reflection Essay"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-08
-published: true
+published: false
 labels:
   - Software Engineering
   - Effort Estimation
