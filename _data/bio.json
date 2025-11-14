@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Milan Bukovics",
-    "label": "Student",
+    "label": "Student-Athlete",
     "picture": "https://github.com/milanbukovics.png",
     "email": "milanabu@hawaii.edu",
     "phone": "808-203-8628",
     "website": "https://milanbukovics.github.io",
-    "summary": "I am studying for a B.S. in Electrical Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "summary": "I am master student-athlete pursuing MS in Electrical Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "milanbukovics", "url": "http://github.com/milanbukovics" },
