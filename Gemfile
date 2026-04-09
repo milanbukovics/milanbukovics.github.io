@@ -9,6 +9,9 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "webrick", "~> 1.7"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
 gem 'html-proofer'
 gem 'jekyll-gist'
 gem 'rouge'

@@ -1,50 +1,411 @@
-/* Default theme. Simple, yet elegant. */
+/* Enhanced EE Portfolio Theme */
 
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --bs-font-sans-serif: "Inter", sans-serif;
+
+  /* Brand accent — electric blue */
+  --tf-accent:        #2563eb;
+  --tf-accent-light:  #3b82f6;
+  --tf-accent-dark:   #1d4ed8;
+  --tf-accent-tint:   #eff6ff;
+  --tf-accent-border: #bfdbfe;
+
+  /* Layout */
+  --tf-page-bg-color:     #ffffff;
+  --tf-navbar-bg:         #0f172a;
+  --tf-footer-bg-color:   #0f172a;
+  --tf-hero-bg-start:     #0f172a;
+  --tf-hero-bg-end:       #1e293b;
+  --tf-projects-bg-color: #f1f5f9;
+  --tf-skills-bg-color:   #0f172a;
+
+  /* Legacy compatibility */
+  --tf-pill-bg: var(--tf-accent);
+
+  /* Icons */
+  --tf-icon-fill:  #94a3b8;
+  --tf-icon-hover: var(--tf-accent-light);
+
+  /* Cards */
+  --tf-card-radius:       12px;
+  --tf-card-shadow:       0 1px 4px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.05);
+  --tf-card-hover-shadow: 0 12px 40px rgba(0,0,0,0.13), 0 4px 16px rgba(0,0,0,0.08);
+
+  --bs-link-color: var(--tf-accent);
 }
 
-/* Format social media icons */
+/* ─── Base ───────────────────────────────────────────────────── */
+
+a { text-decoration: none; }
+
+/* ─── Social icons ───────────────────────────────────────────── */
+
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
   height: 1.5em;
+  width:  1.5em;
   vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+  transition: fill 0.2s ease, transform 0.2s ease;
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: translateY(-2px);
 }
 
-a {
-  text-decoration: none;
+/* ─── Navbar ─────────────────────────────────────────────────── */
+
+.tf-navbar {
+  background-color: var(--tf-navbar-bg) !important;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
 }
 
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
+.tf-navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  transition: color 0.2s;
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+.tf-navbar .navbar-brand:hover { color: var(--tf-accent-light) !important; }
+
+.tf-navbar .nav-link {
+  color: #94a3b8 !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: color 0.2s;
+}
+
+.tf-navbar .nav-link:hover { color: #ffffff !important; }
+
+/* ─── Hero / About ───────────────────────────────────────────── */
+
+.tf-hero {
+  position: relative;
+  background: linear-gradient(135deg, var(--tf-hero-bg-start) 0%, var(--tf-hero-bg-end) 100%);
+  padding: 4rem 0 !important;
+  overflow: hidden;
+}
+
+/* Subtle dot-grid tech background */
+.tf-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0);
+  background-size: 28px 28px;
+  pointer-events: none;
+}
+
+.tf-hero .container { position: relative; }
+
+.tf-hero h1 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.tf-hero .tf-hero-label {
+  color: var(--tf-accent-light);
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.tf-hero .lead {
+  color: #94a3b8;
+  font-size: 0.935rem;
+  line-height: 1.75;
+}
+
+.tf-hero hr { border-color: rgba(255,255,255,0.1); margin: 1.25rem 0; }
+
+.tf-hero .tf-interests {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.tf-hero .tf-interests-values { color: #94a3b8; }
+
+/* Profile photo */
+.tf-profile-img {
+  border: 3px solid var(--tf-accent);
+  box-shadow: 0 0 0 6px rgba(37,99,235,0.15), 0 0 32px rgba(37,99,235,0.25);
+}
+
+/* ─── Skills strip ───────────────────────────────────────────── */
+
+.tf-skills-section {
+  background-color: #111827;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 2.5rem 0;
+}
+
+.tf-skills-category {
+  margin-bottom: 0;
+}
+
+.tf-skills-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--tf-accent-light);
+  margin-bottom: 0.6rem;
+}
+
+.tf-skill-chip {
+  display: inline-block;
+  background-color: rgba(37,99,235,0.12);
+  color: #cbd5e1;
+  border: 1px solid rgba(37,99,235,0.25);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.tf-skill-chip:hover {
+  background-color: rgba(37,99,235,0.25);
+  color: #ffffff;
+}
+
+/* ─── Section headings ───────────────────────────────────────── */
+
+.tf-section-title {
+  font-weight: 700;
+  color: #0f172a;
+  display: inline-block;
+}
+
+.tf-section-title::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: var(--tf-accent);
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+/* ─── Projects section ───────────────────────────────────────── */
+
+.tf-projects-section {
+  background-color: var(--tf-projects-bg-color) !important;
+}
+
+/* ─── Project cards (vertical grid) ─────────────────────────── */
+
+.tf-project-card {
+  border: 1px solid rgba(0,0,0,0.06) !important;
+  border-radius: var(--tf-card-radius) !important;
+  box-shadow: var(--tf-card-shadow);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background: #ffffff;
+}
+
+.tf-project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--tf-card-hover-shadow);
+}
+
+/* Top-of-card image (vertical layout) */
+.tf-card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.tf-card-date {
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--tf-accent);
+  margin-bottom: 0.4rem;
+}
+
+.tf-project-card .card-body {
+  padding: 1.25rem 1.25rem 0.75rem;
+}
+
+.tf-project-card .card-title {
+  font-weight: 600;
+  font-size: 0.975rem;
+  color: #0f172a;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.tf-project-card .card-text {
+  color: #475569;
+  font-size: 0.855rem;
+  line-height: 1.65;
+}
+
+.tf-project-card .card-footer {
+  background: transparent;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding: 0.875rem 1.25rem;
+}
+
+/* ─── Essay cards ────────────────────────────────────────────── */
+
+.tf-essay-card {
+  border: 1px solid rgba(0,0,0,0.06) !important;
+  border-radius: var(--tf-card-radius) !important;
+  box-shadow: var(--tf-card-shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tf-essay-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--tf-card-hover-shadow);
+}
+
+.tf-essay-card .card-title {
+  font-weight: 600;
+  font-size: 0.975rem;
+  color: #0f172a;
+}
+
+.tf-essay-card .card-text {
+  color: #475569;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.tf-essay-card .card-footer {
+  background-color: #ffffff;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding: 0.875rem 1.25rem;
+}
+
+/* Legacy card-footer compatibility */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
+}
+
+/* ─── Badges / Pills ─────────────────────────────────────────── */
+
+.tf-badge {
+  display: inline-block;
+  background-color: var(--tf-accent-tint) !important;
+  color: var(--tf-accent) !important;
+  border: 1px solid var(--tf-accent-border);
+  font-weight: 500;
+  font-size: 0.72rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+}
+
+/* ─── Buttons ────────────────────────────────────────────────── */
+
+.tf-btn {
+  color: var(--tf-accent);
+  border: 1px solid var(--tf-accent);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.875rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.tf-btn:hover {
+  background-color: var(--tf-accent);
+  border-color: var(--tf-accent);
+  color: #ffffff;
+}
+
+/* ─── Project detail page ────────────────────────────────────── */
+
+.tf-project-banner {
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  background-color: #1e293b;
+}
+
+.tf-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--tf-accent);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.4rem 0;
+  margin-bottom: 1.5rem;
+  transition: gap 0.2s;
+}
+
+.tf-back-link:hover {
+  color: var(--tf-accent-dark);
+  gap: 0.5rem;
+}
+
+.tf-project-content {
+  color: #1e293b;
+  line-height: 1.8;
+}
+
+.tf-project-content h1,
+.tf-project-content h2,
+.tf-project-content h3 {
+  color: #0f172a;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.tf-project-content h1 { font-size: 1.6rem; }
+.tf-project-content h2 { font-size: 1.25rem; }
+.tf-project-content h3 { font-size: 1.05rem; }
+
+.tf-project-content p { margin-bottom: 1rem; }
+
+.tf-project-content ul,
+.tf-project-content ol {
+  margin-bottom: 1rem;
+  padding-left: 1.4rem;
+}
+
+.tf-project-content li { margin-bottom: 0.3rem; }
+
+/* ─── Footer ─────────────────────────────────────────────────── */
+
+.tf-footer {
+  background-color: var(--tf-footer-bg-color) !important;
+  border-top: 1px solid rgba(255,255,255,0.06) !important;
+  padding: 1.1rem 0;
+}
+
+.tf-footer .nav-link,
+.tf-footer a {
+  color: #475569 !important;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.tf-footer .nav-link:hover,
+.tf-footer a:hover { color: var(--tf-accent-light) !important; }
+
+/* ─── Mobile ─────────────────────────────────────────────────── */
+
+@media (max-width: 500px) {
+  .navbar-brand         { display: none; }
+  .navbar-brand-mobile  { display: inline; }
 }

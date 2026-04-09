@@ -25,6 +25,11 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - projects/ballonsat.html
+  - projects/ballonsat_files
+  - projects/crazyflie_files
+  - projects/hive_files
+  - projects/teamrose_files
 include:
   - .nojekyll
   - _data
