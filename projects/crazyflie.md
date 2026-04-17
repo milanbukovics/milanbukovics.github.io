@@ -19,7 +19,7 @@ summary: "A unified ROS 2–based control, simulation, and autonomy framework en
 
 ## Heterogeneous Crazyflie + TurtleBot3 Swarm Control System
 
-<img src="../img/flyingswarm.png" class="img-fluid rounded shadow-sm my-4" style="max-width:600px; display:block; margin:auto;" alt="Crazyflie swarm in flight">
+<img src="/img/flyingswarm.png" class="img-fluid rounded shadow-sm my-4" style="max-width:600px; display:block; margin:auto;" alt="Crazyflie swarm in flight">
 
 This project develops a unified control, simulation, and autonomy framework enabling **heterogeneous swarm coordination** between **Crazyflie UAVs** and **TurtleBot3 ground robots**. The system integrates **ROS 2**, **Gazebo**, **sensor fusion**, and **reinforcement-learning-based controllers**, creating a scalable testbed for swarm robotics research.
 

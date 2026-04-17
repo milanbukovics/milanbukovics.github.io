@@ -70,7 +70,7 @@ A new unified avionics motherboard integrating:
 * Provides ~30V nominal, 530 Wh, and 3+ hours of runtime
 * Tested under URC-level current spikes and environmental stress
 
-<img src="../img/BatteryDesign.png" class="img-fluid rounded shadow-sm my-4" style="max-width:500px; display:block; margin:auto;" alt="Custom 8S-4P battery pack">
+<img src="/img/BatteryDesign.png" class="img-fluid rounded shadow-sm my-4" style="max-width:500px; display:block; margin:auto;" alt="Custom 8S-4P battery pack">
 
 ### 4. Sensor Fusion & ROS 2 Navigation Integration
 
@@ -89,7 +89,7 @@ A new unified avionics motherboard integrating:
 * Jetson Xavier compute integration
 * Modular harnesses for rapid assembly and field repairs
 
-<img src="../img/PDB500.png" class="img-fluid rounded shadow-sm my-4" style="max-width:300px; display:block; margin:auto;" alt="Power distribution board">
+<img src="/img/PDB500.png" class="img-fluid rounded shadow-sm my-4" style="max-width:300px; display:block; margin:auto;" alt="Power distribution board">
 
 ## Results
 
@@ -105,7 +105,7 @@ A new unified avionics motherboard integrating:
 * Breakout PCBs for arm & payload subsystems
 * Full avionics integration for URC 2025 competition rover
 
-<img src="../img/FlipskyBMS.png" class="img-fluid rounded shadow-sm my-4" style="max-width:300px; display:block; margin:auto;" alt="Flipsky BMS">
+<img src="/img/FlipskyBMS.png" class="img-fluid rounded shadow-sm my-4" style="max-width:300px; display:block; margin:auto;" alt="Flipsky BMS">
 
 ## Conclusion
 

@@ -12,11 +12,11 @@ labels:
   - Skills
 ---
 
-<!--<img width="500px" class="float-start pe-4 img-thumbnail" src="../img/codeM.png"> -->
-<!-- <img width="200px" class="rounded float-start pe-4" src="../img/.png"> -->
+<!--<img width="500px" class="float-start pe-4 img-thumbnail" src="/img/codeM.png"> -->
+<!-- <img width="200px" class="rounded float-start pe-4" src="/img/.png"> -->
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/codeM.png" class="img-thumbnail" >
+  <img width="500px" src="/img/codeM.png" class="img-thumbnail" >
   
 </div>
 
@@ -37,7 +37,7 @@ I want to improve my technical skills. I have already been exposed to Python, C,
 
 My personal goal with JavaScript and TypeScript is to build a web app that redefines how swim practices are created. Since I am part of the UH Swim and Dive team, I already have the knowledge of *what* to put on the website, and learning JavaScript and TypeScript will help me understand *how* to put the web app together. This project is a great opportunity to learn more about data science, machine learning, and mobile app development. On the human side, communication, team collaboration, and networking will be needed to create at least a minimum viable product.
 
-<img width="300px" class="rounded" src="../img/codeA.png">
+<img width="300px" class="rounded" src="/img/codeA.png">
 
 It is a long journey to get there, but I am excited to learn more about the field of software engineering.
 

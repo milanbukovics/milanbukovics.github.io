@@ -24,7 +24,7 @@ This Balloon Satellite project involves designing the power system, sensing plat
 
 The platform is built for robust, long-duration atmospheric data collection in extreme environments.
 
-<img src="../img/spaceflight.png" class="img-fluid rounded shadow-sm my-4" style="max-width:450px; display:block; margin:auto;" alt="Balloon satellite payload">
+<img src="/img/spaceflight.png" class="img-fluid rounded shadow-sm my-4" style="max-width:450px; display:block; margin:auto;" alt="Balloon satellite payload">
 
 ## My Contributions
 
@@ -44,7 +44,7 @@ Designed the power subsystem, sensor suite, and environmental protections, empha
 * Designed circuitry for safe high-altitude charging
 * Implemented low-power standby modes to extend mission lifetime
 
-<img src="../img/solarboat.png" class="img-fluid rounded shadow-sm my-4" style="max-width:300px; display:block; margin:auto;" alt="Solar charging module">
+<img src="/img/solarboat.png" class="img-fluid rounded shadow-sm my-4" style="max-width:300px; display:block; margin:auto;" alt="Solar charging module">
 
 ### 3. Environmental Telemetry System
 

@@ -19,7 +19,7 @@ summary: "Contributed to custom PCB-based autonomous swarm robots (Hive-1 and Hi
 Hive-1 and Hive-2 are custom-designed **autonomous swarm robots** built around a modular PCB architecture using **Arduino Nano ESP32**, omniwheel mobility, and lightweight sensing pipelines.
 Both platforms were engineered for synchronized multi-robot experiments, distributed control, and indoor localization.
 
-<img src="../img/hive11.png" class="img-fluid rounded shadow-sm my-4" style="max-width:400px; display:block; margin:auto;" alt="Hive-1 robot">
+<img src="/img/hive11.png" class="img-fluid rounded shadow-sm my-4" style="max-width:400px; display:block; margin:auto;" alt="Hive-1 robot">
 
 ## Hive-1: Sensor-Rich Swarm Platform
 
@@ -34,7 +34,7 @@ Both platforms were engineered for synchronized multi-robot experiments, distrib
 * Developed firmware for synchronized behaviors, wireless communication, and sensor calibration
 * Designed the charging dock and power management system
 
-<img src="../img/hive22.png" class="img-fluid rounded shadow-sm my-4" style="max-width:400px; display:block; margin:auto;" alt="Hive-2 robot">
+<img src="/img/hive22.png" class="img-fluid rounded shadow-sm my-4" style="max-width:400px; display:block; margin:auto;" alt="Hive-2 robot">
 
 ## Hive-2: Lightweight Micro-Swarm Variant
 
