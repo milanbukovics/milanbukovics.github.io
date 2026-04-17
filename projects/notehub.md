@@ -3,23 +3,20 @@ layout: project
 type: project
 image: img/notehub.png
 title: "Notehub Manoa"
-date: Jan. 2025 – May 2025
+date: 2025-01 – 2025-05
 published: true
 labels:
   - Vercel
   - NextJS
   - ICS314
-summary: "As part of ICS 314 at the University of Hawai‘i at Mānoa, we developed NoteHub Mānoa, a fully functional website where students can upload and share their class notes. The platform is designed to help peers and future generations study more effectively for exams."
+summary: "As part of ICS 314 at the University of Hawai'i at Mānoa, we developed NoteHub Mānoa, a fully functional website where students can upload and share their class notes. The platform is designed to help peers and future generations study more effectively for exams."
 ---
 
-# NoteHub Mānoa
-
-[![Live Site](https://img.shields.io/badge/Live%20Site-NoteHub%20Mānoa-blue)](https://notehub-manoa.vercel.app)
-[![Project Organization](https://img.shields.io/badge/Project%20Site-Web%20Warriors%20Hub-green)](https://web-warriors-hub.github.io)
+## NoteHub Mānoa
 
 ## Overview
 
-**NoteHub Mānoa** is a collaborative web platform built for students at the University of Hawai‘i at Mānoa. It enables students to upload, browse, and share class notes to support peer learning and long-term academic success. The goal is to build a centralized, course-specific repository of knowledge that is accessible to all students.
+**NoteHub Mānoa** is a collaborative web platform built for students at the University of Hawai'i at Mānoa. It enables students to upload, browse, and share class notes to support peer learning and long-term academic success. The goal is to build a centralized, course-specific repository of knowledge that is accessible to all students.
 
 ## Objective
 
@@ -66,8 +63,9 @@ The full development history, including milestones, challenges, and team collabo
 Students praised the simplicity and usefulness of the platform, and several expressed interest in adopting it for their own classes. Feedback has driven updates and new feature discussions.
 
 ## Developers
-- [Catalina](https://github.com/cat-mb)  
-- [Andrea](https://github.com/andreamurillomtz)  
-- [Milan](https://github.com/milanbukovics)  
-- [Landon](https://github.com/lkihe)  
-- [Nalani](https://github.com/NalaniKlopfen)  
+
+- [Catalina](https://github.com/cat-mb)
+- [Andrea](https://github.com/andreamurillomtz)
+- [Milan](https://github.com/milanbukovics)
+- [Landon](https://github.com/lkihe)
+- [Nalani](https://github.com/NalaniKlopfen)

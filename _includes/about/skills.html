@@ -1,0 +1,20 @@
+<div class="tf-skills-section">
+  <div class="container">
+    <div class="row g-4">
+      {% for skill in site.data.bio.skills %}
+        {% unless skill.name == "Spoken Languages" %}
+        <div class="col-md-6">
+          <div class="tf-skills-category">
+            <div class="tf-skills-label">{{ skill.name }}</div>
+            <div>
+              {% for keyword in skill.keywords %}
+              <span class="tf-skill-chip">{{ keyword }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

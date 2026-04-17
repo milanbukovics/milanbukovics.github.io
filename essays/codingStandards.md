@@ -16,7 +16,7 @@ labels:
 
 
 <div class="text-center p-4">
-  <img width="300px" src="../img/eslintJoke.png" class="img-thumbnail" >
+  <img width="300px" src="/img/eslintJoke.png" class="img-thumbnail" >
   
 </div>
 
@@ -67,7 +67,7 @@ While these practices are helpful, they aren't necessarily part of formal coding
 
  
 <div class="text-center p-4">
-  <img width="600px" src="../img/toolsJoke.png" class="img-thumbnail" >
+  <img width="600px" src="/img/toolsJoke.png" class="img-thumbnail" >
   
 </div>
 

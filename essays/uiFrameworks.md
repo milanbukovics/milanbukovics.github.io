@@ -15,7 +15,7 @@ labels:
 # Why bother to use something like Bootstrap 5 for UI development?
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/bootstrap5.png" class="img-thumbnail" alt="bootstrap5 img">
+  <img width="500px" src="/img/bootstrap5.png" class="img-thumbnail" alt="bootstrap5 img">
   
 </div>
 
@@ -42,7 +42,7 @@ The fact that there are so many options can be overwhelming. However, these prop
 UI frameworks provide multiple advantages in software engineering, including accelerated development, uniform design across applications, and responsive components. They ensure cross-browser compatibility, minimize code redundancy, and enhance maintainability.Other benefits are shown on the picture below. 
 
 <div class="text-center p-4 margin-bottom:30px">
-  <img width="500px" src="../img/uiFrameworks.png" class="img-thumbnail" alt="uiFrameworks img">
+  <img width="500px" src="/img/uiFrameworks.png" class="img-thumbnail" alt="uiFrameworks img">
   
 </div>
 

@@ -13,7 +13,7 @@ labels:
 ---
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/smartVSstupidQuestion.png" class="img-thumbnail" >
+  <img width="500px" src="/img/smartVSstupidQuestion.png" class="img-thumbnail" >
   
 </div>
 
@@ -104,7 +104,7 @@ Vim has an entire manual dedicated to its usage, and a simple search or reading 
 Surprisingly, despite the poor quality of the question, the response was still informative. However, as expected, it was much shorter and less detailed than the response to the well-structured question above.
 
 <div >
-  <img width="200px" src="../img/sillyQuestion.png" class="img-thumbnail" >
+  <img width="200px" src="/img/sillyQuestion.png" class="img-thumbnail" >
   
 </div>
 
